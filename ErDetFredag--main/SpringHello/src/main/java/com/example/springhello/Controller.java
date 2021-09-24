@@ -23,7 +23,7 @@ public class Controller {
     public String index(){
         return "You du er ved startsiden homie";
     }
-
+    //Opgave 1.3
     @GetMapping("/er-det-fredag")
     public static String fredag(){
         return FredagController.fredag();
